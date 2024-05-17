@@ -21,3 +21,6 @@
 .ship-board .over{
     border: 3px dotted #000;
 }
+body{
+    background-color: aqua;
+}
