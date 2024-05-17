@@ -1,0 +1,25 @@
+.player-ship-deploy-modal{
+    display: flex;
+}
+.player-ship-deploy-modal .ship-board{
+    display: grid;
+    grid-template-columns: repeat(10,50px);
+    grid-template-rows: repeat(10,50px);
+    border: 1px solid #666;
+}
+
+.ship-board .cell{
+    border: 1px solid #666;
+}
+.ship{
+    height: 50px;
+}
+.ships-container{
+    display: flex;
+    flex-direction: column;
+}
+.ship-board .over{
+    border: 3px dotted #000;
+}
+
+/*# sourceMappingURL=main.22c6f198e74a72f3fd21.css.map*/
